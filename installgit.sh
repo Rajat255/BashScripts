@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 install_git_debian() {
     sudo apt-get update
