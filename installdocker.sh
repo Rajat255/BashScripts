@@ -33,4 +33,9 @@ case $DISTRO in
         ;;
 esac
 
-echo "Docker has been installed successfully."
+sudo systemctl start docker
+sudo systemctl enable docker
+
+sudo usermod -aG docker $USER
+
+echo "Docker has been installed and Started successfully."
