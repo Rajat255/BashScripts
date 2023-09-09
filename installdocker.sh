@@ -9,7 +9,7 @@ else
 fi
 
 case $DISTRO in
-    "opensuse-leap" | "opensuse-tumbleweed")
+    "opensuse-leap" | "opensuse-tumbleweed" | "suse")
         sudo zypper -n install docker
         ;;
 
